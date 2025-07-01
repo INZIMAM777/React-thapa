@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(241, 241, 241);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+p{
+    font-size: larger;
+    text-align: center;
+}
+input{
+    width: 200px;
+    height: 36px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    font-size: medium;
+}
+.submit{
+    height: 40px;
+    width:45px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #000;
+    padding-left: 5px;
+    font-size: medium;
+    background-color: green;
+    color: white;
+}
+.outer{
+    border:2px solid black;
+    width: 400px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgb(255 0 255);
+    margin-left: auto;
+}
+
+@media (max-width: 400px) {
+    .outer{
+        width: 260px;
+    }
+    input{
+        width:170px
+    }
+    .clearbtn{
+        height: 30px;
+        font-size: medium;
+    }
+    
+}
+.clearbtn{
+    height: 34px;
+    border: 1px solid #000;
+    font-size: larger;
+    background-color: red;
+    color: white;
+}
+.readbtn{
+    height: 34px;
+    border: 1px solid #000;
+    font-size: larger;
+    background-color: green;
+    color: white;
+}
+
+li{
+    width: 240px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+ 
+li div{
+    width:80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    padding: 0;
+}
